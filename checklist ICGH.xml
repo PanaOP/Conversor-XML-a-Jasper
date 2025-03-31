@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro titulo="Test de Cribado de Afasia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="registros.xsd">
+
+<fila titulo=" " ancho="1000">
+ <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;¿Tuvo la enfermedad injerto contra huésped (GvHD)?&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="hola" code="HOLAA" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+    </grupo-fila>
+
+    <grupo-fila>
+        <item tipo="MARCA" id="2" code="PRUEBA10002" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Si</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA" supper="2">&lt;b&gt;¿El paciente recibió un tratamiento sistematico/inmunosupresivo para el GvHD?&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="4" code="PRUEBA10004" codeSystem="99G2" is-supper="true" supper="2" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="5" code="PRUEBA10005" codeSystem="99G2" is-supper="true" supper="2" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="6" code="PRUEBA10006" codeSystem="99G2" is-supper="true" supper="2" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="FECHA" is-supper="true" supper="5" id="7" code="PRUEBA10007" codeSystem="99G2" dep-mode="show-blank" archivable="true">Fecha de inicio del tratamiento: </item>
+        <item tipo="MARCA" id="8" code="PRUEBA10008" codeSystem="99G2" is-supper="true" supper="5" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>        
+        <item tipo="ETIQUETA" supper="5">Tratamiento terminado: </item>
+    <grupo-fila>
+        <item tipo="MARCA" id="9" code="PRUEBA10009" codeSystem="99G2" is-supper="true" supper="5" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="10" code="PRUEBA10010" codeSystem="99G2" is-supper="true" supper="5" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="11" code="PRUEBA10011" codeSystem="99G2" is-supper="true" supper="5" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="FECHA" is-supper="true" supper="10" id="12" code="PRUEBA10012" codeSystem="99G2">Finalización del tratamiento: </item>
+        <item tipo="MARCA" id="13" code="PRUEBA10013" codeSystem="99G2" is-supper="true" supper="10" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+
+    <grupo-fila>
+        <item tipo="MARCA" id="3" code="PRUEBA10003" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+</fila>
+
+<fila ancho="1000">
+            <item tipo="ETIQUETA">¿Ocurrió la aGvHD durante el período de seguimiento?</item>
+    <grupo-fila>
+            <item tipo="MARCA" id="14" code="PRUEBA10014" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+    </grupo-fila>
+
+    <grupo-fila>
+            <item tipo="MARCA" id="15" code="PRUEBA10015" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Si</item>
+
+            <item tipo="FECHA" is-supper="true" supper="15" id="17" code="PRUEBA10017" codeSystem="99G2" dep-mode="show-blank" archivable="true">Fecha de inicio: </item>
+            <item tipo="MARCA" id="18" code="PRUEBA10018" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+            <item tipo="ETIQUETA" supper="15">Puntuación máxima observada de gravedad orgánica: </item>
+    <grupo-fila> 
+            <item tipo="SELECTOR" id="19" valores="0 (nada),1,2,3,4,No evaluado,Desconocido" separador="," code="PRUEBA10019" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Piel: </item>
+            <item tipo="SELECTOR" id="20" valores="0 (nada),1,2,3,4,No evaluado,Desconocido" separador="," code="PRUEBA10020" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Higado: </item>
+            <item tipo="SELECTOR" id="21" valores="0 (nada),1,2,3,4,No evaluado,Desconocido" separador="," code="PRUEBA10021" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Tracto gastrointestinal inferior: </item>
+    </grupo-fila>
+    <grupo-fila>            
+            <item tipo="SELECTOR" id="22" valores="0 (nada),1,No evaluado,Desconocido" separador="," code="PRUEBA10022" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Tracto gastrointestinal superior: </item>
+            <item tipo="SELECTOR" id="23" valores="No,Si" separador="," code="PRUEBA10023" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Otro sitio afectado: </item>
+            <item tipo="TEXTO" id="24" code="PRUEBA10024" codeSystem="99G2" is-supper="true" parent-dep-value="Si" supper="23" dep-mode="show-blank" archivable="true">Especifica: </item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="SELECTOR" id="25" valores="1,2,3,4,Desconocido,No evaluado" separador="," code="PRUEBA10025" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Grado máximo general observado: </item>
+    </grupo-fila>
+            <item tipo="ETIQUETA" supper="15">GvHD aguda refractaria a esteroides: </item>
+    <grupo-fila>        
+            <item tipo="MARCA" id="26" code="PRUEBA10026" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">No</item>
+            <item tipo="MARCA" id="27" code="PRUEBA10027" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Si</item>
+            <item tipo="MARCA" id="30" code="PRUEBA10030" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Desconocido</item>
+            <item tipo="FECHA" is-supper="true" supper="27" id="28" code="PRUEBA10028" codeSystem="99G2" dep-mode="show-blank" archivable="true">Fecha de inicio: </item>
+            <item tipo="MARCA" id="29" code="PRUEBA10029" codeSystem="99G2" is-supper="true" supper="27" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="ETIQUETA" supper="15">aGvHD resuelta: </item>
+            <item tipo="MARCA" id="31" code="PRUEBA10031" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">No</item>
+            <item tipo="MARCA" id="32" code="PRUEBA10032" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Si</item>
+            <item tipo="MARCA" id="33" code="PRUEBA10033" codeSystem="99G2" is-supper="true" supper="15" dep-mode="show-blank" archivable="true">Desconocido</item>
+
+            <item tipo="FECHA" is-supper="true" supper="32" id="34" code="PRUEBA10034" codeSystem="99G2" dep-mode="show-blank" archivable="true">Fecha de resolución del aGvHD: </item>
+            <item tipo="MARCA" id="35" code="PRUEBA10035" codeSystem="99G2" is-supper="true" supper="32" dep-mode="show-blank" archivable="true">Desconocido</item>           
+    </grupo-fila>
+    
+
+    <grupo-fila>
+        <item tipo="MARCA" id="16" code="PRUEBA10016" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila> 
+</fila>
+
+<fila titulo=" " ancho="1000">
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Tratamiento de primera línea para la aGvHD&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;¿Recibió el paciente esteroides como tratamiento de primera línea para la aGvHD?&lt;/b&gt;</item>
+        <item tipo="MARCA" id="36" code="PRUEBA10036" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="37" code="PRUEBA10037" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="38" code="PRUEBA10038" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Detalles de los esteroides&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila> 
+            <item tipo="SELECTOR" id="39" valores="Prednisolona,Metilprednisolona,Otro" separador="," code="PRUEBA10039" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Nombre del esteroide</item>
+            <item tipo="TEXTO" id="42" code="PRUEBA10042" codeSystem="99G2" is-supper="true" parent-dep-value="Otro" supper="39" dep-mode="show-blank" archivable="true">Especifica: </item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Inicio del tratamiento&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="FECHA" is-supper="true" id="43" code="PRUEBA10043" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+            <item tipo="MARCA" id="40" code="PRUEBA10040" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>           
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Dosis inicial&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="TEXTO" id="44" code="PRUEBA10044" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true"></item>
+            <item tipo="MARCA" id="45" code="PRUEBA10045" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>           
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Finalización del tratamiento&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="46" code="PRUEBA10046" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="47" code="PRUEBA10047" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="48" code="PRUEBA10048" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="FECHA" is-supper="true" supper="47" id="49" code="PRUEBA10049" codeSystem="99G2"></item>
+        <item tipo="MARCA" id="50" code="PRUEBA10050" codeSystem="99G2" is-supper="true" supper="47" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;¿Se utilizaron otros medicamentos/estrategias sistémicas para tratar la aGvHD en la primera línea?&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="51" code="PRUEBA10051" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="52" code="PRUEBA10052" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="53" code="PRUEBA10053" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA" supper="52">&lt;b&gt;Nombre de los medicamentos/estrategias&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="54" code="PRUEBA10054" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">ECP</item>
+        <item tipo="MARCA" id="55" code="PRUEBA10055" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">Ruxolitinib</item>
+        <item tipo="MARCA" id="56" code="PRUEBA10056" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">MMF</item>
+        <item tipo="MARCA" id="57" code="PRUEBA10057" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">Cyclosporin A</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="58" code="PRUEBA10058" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">Tacrolimus</item>
+        <item tipo="MARCA" id="59" code="PRUEBA10059" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">Sirolimus</item>
+        <item tipo="MARCA" id="60" code="PRUEBA10060" codeSystem="99G2" is-supper="true" supper="52" dep-mode="show-blank" archivable="true">Otro</item>
+
+        <item tipo="TEXTO" id="61" code="PRUEBA10061" codeSystem="99G2" is-supper="true" supper="60" dep-mode="show-blank" archivable="true">Especifica: </item>
+    </grupo-fila>
+</fila>
+<fila>
+        <item tipo="ETIQUETA">&lt;b&gt;¿Como responde a los medicamentos la aGvHD?&lt;/b&gt;</item>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Sensibilidad a los esteroides&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="62" code="PRUEBA10062" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="63" code="PRUEBA10063" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="64" code="PRUEBA10064" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Refractaria a los esteroides&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="68" code="PRUEBA10068" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="69" code="PRUEBA10069" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="70" code="PRUEBA10070" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Dependencia a los esteroides&lt;/b&gt;</item>
+    </grupo-fila>
+        <item tipo="MARCA" id="65" code="PRUEBA10065" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="66" code="PRUEBA10066" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="67" code="PRUEBA10067" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    <grupo-fila>
+        <item tipo="FECHA" is-supper="true" supper="66" id="72" code="PRUEBA10072" codeSystem="99G2" dep-mode="show-blank" archivable="true">Fecha de inicio: </item>
+        <item tipo="MARCA" id="71" code="PRUEBA10071" codeSystem="99G2" is-supper="true" supper="66" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+</fila>
+
+<fila ancho="1000">
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;¿El paciente recibió tratamiento para SR/SD aGvHD?&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="MARCA" id="75" code="PRUEBA10075" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="73" code="PRUEBA10073" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="MARCA" id="74" code="PRUEBA10074" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo-fila>
+    <grupo-fila>
+        <item tipo="ETIQUETA">&lt;b&gt;Grado general de aGvHD al inicio del tratamiento de GvHD SR/SD&lt;/b&gt;</item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="SELECTOR" id="81" valores="0,1,2,3,4,No evaluado,Desconocido" separador="," code="PRUEBA10081" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Piel: </item>
+    </grupo-fila>
+    <grupo-fila>
+            <item tipo="ETIQUETA">Órganos afectados al inicio del tratamiento de la GvHD SR/SD</item>
+    </grupo-fila> 
+    <grupo-fila>
+            <item tipo="SELECTOR" id="82" valores="Stage 0,Stage 1,Stage 2,Stage 3,Stage 4,No evaluado,Desconocido" separador="," code="PRUEBA10082" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Piel: </item>
+            <item tipo="SELECTOR" id="83" valores="Stage 0,Stage 1,Stage 2,Stage 3,Stage 4,No evaluado,Desconocido" separador="," code="PRUEBA10083" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Higado: </item>
+            <item tipo="SELECTOR" id="84" valores="Stage 0,Stage 1,Stage 2,Stage 3,Stage 4,No evaluado,Desconocido" separador="," code="PRUEBA10084" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Tracto gastrointestinal inferior: </item>
+            <item tipo="SELECTOR" id="85" valores="Stage 0,Stage 1,No evaluado,Desconocido" separador="," code="PRUEBA10085" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Tracto gastrointestinal superior: </item>    
+    </grupo-fila>
+</fila>
+<fila ancho="1000">
+        <item tipo="ETIQUETA">&lt;b&gt;Medicamentos dados durante la linea de tratamiento&lt;/b&gt;</item>
+        <item tipo="TEXTO" id="86" code="PRUEBA10086" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Linea de tratamiento: </item>
+</fila>
+<fila ancho="1000">
+    <columna>
+    <grupo>
+        <item tipo="ETIQUETA">&lt;b&gt;Nombre del medicamento&lt;/b&gt;</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="87" code="PRUEBA10087" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">ECP</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="88" code="PRUEBA10088" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Ruxolitinib</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="89" code="PRUEBA10089" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">MMF</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="90" code="PRUEBA10090" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Cyclosporin A</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="91" code="PRUEBA10091" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Tacrolimus</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="92" code="PRUEBA10092" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Sirolimus</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="93" code="PRUEBA10093" codeSystem="99G2" is-supper="true" dep-mode="show-blank" archivable="true">Otro</item>
+        <item tipo="TEXTO" id="94" code="PRUEBA10094" codeSystem="99G2" is-supper="true" parent-dep-value="Si" supper="23" dep-mode="show-blank" archivable="true">Especifica: </item>
+    </grupo>   
+</columna>
+
+<columna>
+    <grupo>
+        <item tipo="ETIQUETA">&lt;b&gt;Fecha de inicio&lt;/b&gt;</item>
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="95" code="PRUEBA10095" supper="87" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="96" code="PRUEBA10096" codeSystem="99G2" supper="87" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="97" code="PRUEBA10097" supper="88" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="98" code="PRUEBA10098" codeSystem="99G2" supper="88" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="99" code="PRUEBA10099" supper="89" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="100" code="PRUEBA10100" codeSystem="99G2" supper="89" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="101" code="PRUEBA10101" supper="90" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="102" code="PRUEBA10102" codeSystem="99G2" supper="90" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="103" code="PRUEBA10103" supper="91" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="104" code="PRUEBA10104" codeSystem="99G2" supper="91" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="105" code="PRUEBA10105" supper="92" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="106" code="PRUEBA10106" codeSystem="99G2" supper="92" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+    <grupo>
+        <item tipo="FECHA" is-supper="true" id="107" code="PRUEBA10107" supper="93" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="108" code="PRUEBA10108" codeSystem="99G2" supper="93" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item> 
+    </grupo>
+</columna>
+
+<columna>
+    <grupo>
+        <item tipo="ETIQUETA">&lt;b&gt;Fecha de finalización&lt;/b&gt;</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="109" code="PRUEBA10109" codeSystem="99G2" supper="87" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="110" code="PRUEBA10110" codeSystem="99G2" supper="87" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="110" id="111" code="PRUEBA10111" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="112" code="PRUEBA10112" codeSystem="99G2" is-supper="true" supper="110" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="113" code="PRUEBA10113" codeSystem="99G2" supper="87" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="114" code="PRUEBA10114" codeSystem="99G2" supper="88" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="115" code="PRUEBA10115" codeSystem="99G2" supper="88" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="115" id="116" code="PRUEBA10116" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="117" code="PRUEBA10117" codeSystem="99G2" is-supper="true" supper="115" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="118" code="PRUEBA10118" codeSystem="99G2" supper="88" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="119" code="PRUEBA10119" codeSystem="99G2" supper="89" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="120" code="PRUEBA10120" codeSystem="99G2" supper="89" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="120" id="121" code="PRUEBA10121" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="122" code="PRUEBA10122" codeSystem="99G2" is-supper="true" supper="120" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="123" code="PRUEBA10123" codeSystem="99G2" supper="89" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="124" code="PRUEBA10124" codeSystem="99G2" supper="90" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="125" code="PRUEBA10125" codeSystem="99G2" supper="90" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="125" id="126" code="PRUEBA10126" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="127" code="PRUEBA10127" codeSystem="99G2" is-supper="true" supper="125" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="128" code="PRUEBA10128" codeSystem="99G2" supper="90" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="129" code="PRUEBA10129" codeSystem="99G2" supper="91" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="130" code="PRUEBA10130" codeSystem="99G2" supper="91" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="130" id="131" code="PRUEBA10131" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="132" code="PRUEBA10132" codeSystem="99G2" is-supper="true" supper="130" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="133" code="PRUEBA10133" codeSystem="99G2" supper="91" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="134" code="PRUEBA10134" codeSystem="99G2" supper="92" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="135" code="PRUEBA10135" codeSystem="99G2" supper="92" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="135" id="136" code="PRUEBA10136" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="137" code="PRUEBA10137" codeSystem="99G2" is-supper="true" supper="135" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="138" code="PRUEBA10138" codeSystem="99G2" supper="92" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+    <grupo>
+        <item tipo="MARCA" id="139" code="PRUEBA10139" codeSystem="99G2" supper="93" is-supper="true" dep-mode="show-blank" archivable="true">No</item>
+        <item tipo="MARCA" id="140" code="PRUEBA10140" codeSystem="99G2" supper="93" is-supper="true" dep-mode="show-blank" archivable="true">Sí</item>
+        <item tipo="FECHA" is-supper="true" supper="140" id="141" code="PRUEBA10141" codeSystem="99G2" dep-mode="show-blank" archivable="true"></item>
+        <item tipo="MARCA" id="142" code="PRUEBA10142" codeSystem="99G2" is-supper="true" supper="140" dep-mode="show-blank" archivable="true">Desconocido</item>
+        <item tipo="MARCA" id="143" code="PRUEBA10143" codeSystem="99G2" supper="93" is-supper="true" dep-mode="show-blank" archivable="true">Desconocido</item>
+    </grupo>
+</columna>
+</fila>
+</registro>
